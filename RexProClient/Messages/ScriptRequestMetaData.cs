@@ -14,8 +14,6 @@ namespace Rexster.Messages
         {
             this.isolate = true;
             this.transaction = true;
-            this.graphName = "graph";
-            this.graphObjName = "g";
         }
 
         public bool InSession
